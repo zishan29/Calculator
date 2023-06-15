@@ -1,0 +1,19 @@
+.container {
+    width: 131px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.display {
+    align-self: flex-end;
+    border: 1px solid black;
+    width: 131px;
+}
+
+button {
+    margin: 3px;
+}
