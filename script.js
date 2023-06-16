@@ -86,7 +86,7 @@ function evaluate() {
     if(operator === "=") {
         if(isClicked) return;
         secondNum = display2.textContent;
-        display1.textContent = `${firstNum} ${currentOperator} ${secondNum} = `;
+        display1.textContent = `${firstNum} ${currentOperator} ${secondNum} `;
         display2.textContent = "";
         lastDisplay.textContent = Math.round(
             operate(firstNum, secondNum, currentOperator) * 100000) / 100000;
@@ -99,9 +99,7 @@ function evaluate() {
         secondNum = display2.textContent;
         display2.textContent = Math.round(
             operate(firstNum, secondNum, currentOperator) * 100000) / 100000;
-        // lastDisplay.textContent = Math.round(
-        //     operate(firstNum, secondNum, currentOperator) * 100000) / 100000;
-        display1.textContent = `${firstNum} ${currentOperator} ${secondNum} = `;
+        display1.textContent = `${firstNum} ${currentOperator} ${secondNum} `;
         currentOperator = null;
     }
 }
