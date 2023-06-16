@@ -6,12 +6,38 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid black;
 }
 
 .display {
     align-self: flex-end;
     border: 1px solid black;
     width: 131px;
+}
+
+.firstDisplay {
+    display: flex;
+    display: flex;
+}
+
+.display1 {
+    margin-left: auto;
+    margin-right: 4px;
+    height: 15px;
+}
+
+.display2 {
+    height: 15px;
+}
+
+.secondDisplay {
+    display: flex;
+}
+
+.lastDisplay {
+    display: flex;
+    margin-left: auto;
+    height: 15px;
 }
 
 button {
